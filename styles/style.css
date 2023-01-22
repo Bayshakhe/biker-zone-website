@@ -1,11 +1,37 @@
 /* header section design */
 header{
-    background: #264653;
     color: white; 
 }
-header ul li a{
-    color: white; !important
+.nav-container{
+    background: #264653;
+
+}
+.banner-img-1{
+    background-image: url("../images/bike-1.png"), linear-gradient(to right, black, #86e4f7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 90vh;
+}
+.banner-img-2{
+    background-image: url("../images/bike-3.png"), linear-gradient(to right, black, #86e4f7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 90vh;
+}
+.banner-img-3{
+    background-image: url("../images/bike-2.png"), linear-gradient(to right, black, #86e4f7);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 90vh;
 }
 .rating-icon{
     width: 1rem;
 }
+
+
+/* <h2>Ride-on R15 V4 with Smile</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, illum nisi quibusdam voluptatibus qui hic dolorum maiores? Provident, repellat tempora!</p>
+                            <button class="btn btn-danger">PURCHASE</button> */
