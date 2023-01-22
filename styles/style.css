@@ -1,0 +1,11 @@
+/* header section design */
+header{
+    background: #264653;
+    color: white; 
+}
+header ul li a{
+    color: white; !important
+}
+.rating-icon{
+    width: 1rem;
+}
